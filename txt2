@@ -81,7 +81,7 @@ add security group->type(NFS)->source type(anywhere)->click launch instance
 do after file created or while creating select file created->network settings->
 remove the subnets or vpc and keep your nfs->save
 
-5.open 2 powershell->in one powershell paste efs1 ssh->sudo su->mkdir fs->yum install -y amazon-efs-utils->
+5.open 2 powershell->in one powershell paste efs1 ssh->sudo su->mkdir efs->yum install -y amazon-efs-utils->
 and do same for efs2 powershell
 
 6.efs->select target efs->actions->attach->mount via dns->copy command->and paste in both powershell
